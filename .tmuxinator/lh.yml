@@ -1,0 +1,12 @@
+# ~/.tmuxinator/lh.yml
+
+name: lh
+root: ~/src/LearnHugo/
+
+windows:
+  - editor:
+      layout: main-horizontal
+      panes:
+        - nvim
+        - #empty, will just run a shell
+  - console: #empty
