@@ -1,0 +1,12 @@
+# ~/.tmuxinator/development.yml
+
+name: hugoqs
+root: ~/src/HugoTest/quickstart/
+
+windows:
+  - editor:
+      layout: main-horizontal
+      panes:
+        - vim
+        - #empty, will just run a shell
+  - console: #empty

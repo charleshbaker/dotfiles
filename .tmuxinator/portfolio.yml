@@ -1,0 +1,12 @@
+# ~/.tmuxinator/development.yml
+
+name: portfolio
+root: ~/src/portfolio/
+
+windows:
+  - editor:
+      layout: main-horizontal
+      panes:
+        - vim
+        - #empty, will just run a shell
+  - console: #empty
