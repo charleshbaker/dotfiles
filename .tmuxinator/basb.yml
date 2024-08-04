@@ -1,0 +1,12 @@
+# ~/.tmuxinator/development.yml
+
+name: basb
+root: ~/chb-basb
+
+windows:
+  - editor:
+      layout: main-horizontal
+      panes:
+        - nvim
+        - #empty, will just run a shell
+  - console: #empty
